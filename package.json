@@ -1,0 +1,28 @@
+{
+  "name": "coffecake",
+  "version": "1.0.0",
+  "description": "JavaScript, CSS, HTML website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javieralas05/coffe_cake.git"
+  },
+  "keywords": [
+    "npm",
+    "github",
+    "javascript",
+    "css",
+    "html",
+    "mobile",
+    "responsive."
+  ],
+  "author": "Javier Alas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javieralas05/coffe_cake/issues"
+  },
+  "homepage": "https://github.com/javieralas05/coffe_cake#readme"
+}
