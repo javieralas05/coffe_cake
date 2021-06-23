@@ -1,8 +1,9 @@
 
 // objeto con las propiedades del efecto Lightbox
 var propLightbox = {
-    imgContainer: document.getElementsByClassName('lightbox')
-    imagen: null
+    imgContainer: document.getElementsByClassName('lightbox'),
+    imagen: null,
+    imagenSrc: null
 }
 
 // objeto con las Metodos del efecto Lightbox
@@ -16,7 +17,12 @@ var metLightbox = {
     capturaImagen: function(){
 
         propLightbox.imagen = this;
-        metLightbox.metLightbox(propLightbox,imagen);
+        metLightbox.lightbox(propLightbox.imagen);
+    },
+
+    lightbox: function(imagen){
+        propLightbox.imagenSrc = window.getComputedStyle(imagen, null).backgroundImage.slice(5, -2);
+        console.log(propLightbox.imagenSrc);
     }
 }
 
